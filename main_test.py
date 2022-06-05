@@ -42,7 +42,6 @@ make_dir(pic_out_path)
 model_path = os.path.join(root_path,"seg_model_best.hdf5")
 model = load_model(model_path,custom_objects={'soft_loss':soft_loss,'soft_acc':soft_acc})
 
-#image_size = 512
 
 piclist = os.listdir(pic_path)
 piclist.sort(key= lambda x:int(x[:-4])) 

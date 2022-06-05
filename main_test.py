@@ -1,6 +1,6 @@
 #coding=gbk
 '''
-Created on 2020Äê3ÔÂ27ÈÕ
+Created on 2020å¹´3æœˆ27æ—¥
 
 @author: yuchuang
 '''
@@ -20,7 +20,7 @@ import keras
 import os
 import cv2
 
-#ÅĞ¶ÏÄ¿Â¼ÊÇ·ñ´æÔÚ£¬²»´æÔÚÔò´´½¨
+
 def make_dir(path):
     if os.path.exists(path)==False:
         os.makedirs(path)

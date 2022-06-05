@@ -51,8 +51,6 @@ for n in range(len(piclist)):
 #     print(image.shape)
     new_name = piclist[n].split('.')[0]+'.png'
     image = cv2.imread(os.path.join(pic_path,piclist[n]))
-    #print(image.shape)
-    #print(image)
     image=image/255
     h,w,c = image.shape
     image = np.expand_dims(image, axis=0)

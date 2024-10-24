@@ -1,7 +1,7 @@
 ### ALCL-Net code   
 #### Paper: **Chuang Yu**, Yunpeng Liu*, Shuhang Wu, Xin Xia, Zhuhua Hu, Deyan Lan, Xin Liu. Pay Attention to Local Contrast Learning Networks for Infrared Small Target Detection [J]. Accepted by IEEE Geoscience and Remote Sensing Letters. 2022. ([[paper](https://ieeexplore.ieee.org/document/9785618)])  
 
-### !!! The pytorch version of ALCL-Net can be found in “model_ALCL-Net.py”.
+### !!! For the training and testing of ALCL-Net, we have integrated it into our complete framework demo ([[link](https://github.com/YuChuang1205/MSDA-Net)]) for direct use.
 
 #### We also uploaded the complete dataset [[link](https://github.com/YuChuang1205/SIRST-dataset-MLCL-Net-version)] we used.  
 
